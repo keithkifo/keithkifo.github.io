@@ -4,8 +4,16 @@
  <ul>
   <li> Currently working on <b>2 Machine Learning Projects</b> for <b>AY2021-22 Term 1</b> </li>
   <ul>
-    <li> CS421 Machine Learning → Predict Customer's Intent based on Website Browsing</li>
+    <li> CS421 Machine Learning → Predict Credit Card Customer Churn based on Intent based on Spending Behaviour and Customer Background</li>
+        <ul>
+            <li>Building and tuning several machine learning models: Logistic Regression, Random Forest, XGBoost and AdaBoost</li>
+            <li>Optimising Recall and Fbeta-score</li>
+        </ul>
     <li> IS424 Data Mining & Biz Analytics → Predict Consumer Loan Default</li>
+        <ul>
+            <li>Building and tuning several machine learning models: Elastic Net Logistic Regression, Random Forest and AdaBoost!</li>
+            <li>Optimising Precision and Fbeta-score</li>
+        </ul>
   </ul>
 </ul>
 
@@ -13,8 +21,8 @@
   <li>Learning/practicing on <b>Data Science Python Libraries</b> </li>
   <ul>
   <li> Pandas, Numpy </li>
-  <li> Seaborn </li>
-  <li> TensorFlow 2 </li>
+  <li> Matplotlib, Seaborn </li>
+  <li> Scikit-learn, Imbalanced-learn, TensorFlow 2 </li>
   </ul>
 </ul>
 
