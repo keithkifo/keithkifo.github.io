@@ -1,4 +1,4 @@
-import { Box, Badge, Image, Container, Heading, Text} from '@chakra-ui/react'
+import { Box, Badge, Image, Container, Heading, Text } from '@chakra-ui/react'
 
 function ProjectCard(props) {
     const property = {

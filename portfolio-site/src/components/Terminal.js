@@ -1,42 +1,36 @@
 import { Stack, HStack, VStack, Circle, Box, Code } from '@chakra-ui/react'
 
 const roundedTop = {
-    borderRadius: "15px 15px 0px 0px"
+    borderRadius: '15px 15px 0px 0px'
 }
 
 const roundedBottom= {
-    borderRadius: "0px 0px 10px 10px"
+    borderRadius: '0px 0px 10px 10px'
 }
 
 function Terminal(props) {
     return (
-        <VStack spacing={0} mt={10}>
-            <Box bg='#E4E3E5' style={roundedTop} w='80%' p={3} color='white'>
+        <VStack spacing={0}>
+            <Box bg='#E4E3E5' style={roundedTop} w='100%' p={3} color='white'>
                 <HStack spacing='12px'>
-                    <Circle bg='#FD6260' size='10px'></Circle>
-                    <Circle bg='#FEBC51' size='10px'></Circle>
-                    <Circle bg='#1FC855' size='10px'></Circle>
+                    <Circle bg='#FD6260' size='10px'/>
+                    <Circle bg='#FEBC51' size='10px'/>
+                    <Circle bg='#1FC855' size='10px'/>
                 </HStack>
             </Box>
 
-            <Box bg='#282A36' style={roundedBottom} boxShadow='2xl' w='80%' h='100%' p={5}>
+            <Box bg='#282A36' style={roundedBottom} boxShadow='2xl' w='100%' h='100%' p={3}>
                 <Stack spacing='0px' mx={5} my={7}>
-                    <Code bg='' color='white'>
-                        > Keith.education()
-                    </Code>
-                    <Code bg='' color='#99C27D'>”B.Sc. Information Systems, Major in Business Analytics and Artificial Intelligence”</Code>
+                    <Code fontSize='md' bg='' color='white' children={'> Keith.education()'}/>
+                    <Code fontSize='md' bg='' color='#99C27D' children={"'B.Sc. Information Systems, Major in Business Analytics and Artificial Intelligence'"}/>
                 </Stack>
                 <Stack spacing='0px' mx={5} my={7}>
-                    <Code bg='' color='white'>
-                        > Keith.goal()
-                    </Code>
-                    <Code bg='' color='#99C27D'>“Aspiring Data Scientist"</Code>
+                    <Code fontSize='md' bg='' color='white' children={'> Keith.goal()'}/>
+                    <Code fontSize='md' bg='' color='#99C27D' children={"'Aspiring Data Scientist'"}/>
                 </Stack>
                 <Stack spacing='0px' mx={5} my={7}>
-                    <Code bg='' color='white'>
-                        > Keith.interests()
-                    </Code>
-                    <Code bg='' color='#99C27D'>["coffee", "yoga", "hitting the gym"]</Code>
+                    <Code fontSize='md' bg='' color='white' children={'> Keith.interests()'}/>
+                    <Code fontSize='md' bg='' color='#99C27D' children={"'['coffee', 'yoga', 'hitting the gym']'"}/>
                 </Stack>
             </Box>
         </VStack>
